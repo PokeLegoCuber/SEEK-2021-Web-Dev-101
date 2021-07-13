@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body
+{
+  background-color:  #FFC300;
+  color:red;
+}
+
+h1
+{
+  color: #38de17;
+  background-color: #0e1340;
+  font-size: 100px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+p
+{
+  font-size: 50px;
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+h2
+{
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+/* Making a ID */
+#cheese
+{
+  color: green;
+}
+/* Gives is more specfifiity within ID */
+#cheese h1
+{
+  color: yellow;
+  background-color: orange;
+  font-size: 20px;
+}
+/* Making a Class */
+.class_name
+{
+  font-family: DejaVu Sans Mono, monospace;
+  color: blue;
+}
